@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" th:fragment="layout(Content)">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Base this is base page</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+    <h1>this is common Header</h1>
+
+  <div th:replace="${Content}"></div>
+
+    <h1> this is common footer</h1>
+
+</body>
+</html>

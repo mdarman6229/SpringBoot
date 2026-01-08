@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Footer Template</title>
+</head>
+<body>
+
+       <footer id fragmentTag th:fragment="footer1(title,subtitle)">
+              <div class="container" >
+                  <h1 th:text="${title}"></h1>
+                  <h1 th:text="${subtitle}"></h1>
+                 <h1>About LearnCode With Durgesh</h1>
+                  <h1>Provide Good Content About Programming</h1>
+                  <h1>Feel free to contact and work with me</h1>
+
+              </div>
+
+       </footer>
+
+</body>
+</html>
